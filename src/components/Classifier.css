@@ -1,0 +1,119 @@
+.multi-text-field {
+  margin: 50px 10% 10px 10%;
+}
+
+.multi-text-field .MuiTextField-root {
+  width: 100%;
+}
+
+.button {
+  width: 80%;
+  min-height: 50px;
+  margin: 0 10% 0 10%;
+  background-color: #5dbd65;
+  border: black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+.button-wait {
+  width: 80%;
+  min-height: 50px;
+  margin: 0 10% 0 10%;
+  background-color: #f77070;
+  border: black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+.h1 {
+  margin: 10px 36% 0px 36%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.container > * {
+  padding: 20px;
+}
+
+.container * p {
+  margin: 0 10% 0 20%;
+  font-size: 20px;
+  color: black;
+}
+
+.page-main {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: white;
+}
+
+.page-main .box {
+  width: 20%;
+  height: 5%;
+  background-color: #5dbd65;
+  margin-left: 40%;
+  border-radius: 5px;
+}
+
+.page-main .box p {
+  padding-top: 7px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.page-left {
+  min-width: 25vw;
+  max-width: 15%;
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page-left p {
+  padding-top: 12px;
+  margin-left: 5%;
+  padding-bottom: 12px;
+  font-size: 24px;
+}
+
+.page-left li {
+  margin-left: 10%;
+  font-size: 26px;
+}
+
+.page-right {
+  min-width: 25vw;
+  max-width: 15%;
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page-right p {
+  margin-top: 45%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container * h3 {
+  font-family: fantasy;
+  color: black;
+}
+/*# sourceMappingURL=Classifier.css.map */

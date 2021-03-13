@@ -1,0 +1,18 @@
+.button-date {
+  border-radius: 5px;
+  background-color: #5c5ceb;
+  max-height: 60px;
+  max-width: 230px;
+  color: white;
+  border-color: white;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: (100px)[1];
+      grid-template-rows: repeat(1, 100px);
+}
+/*# sourceMappingURL=Articles.css.map */

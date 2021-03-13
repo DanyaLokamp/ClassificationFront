@@ -1,0 +1,24 @@
+.stepper {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.stepper .MuiPaper-elevation0 {
+  background-color: white;
+}
+
+.stepper .MuiTypography-displayBlock {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.stepper .stepper_button {
+  margin-right: 1%;
+}
+
+.stepper .instructions {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+/*# sourceMappingURL=Stepper.css.map */
